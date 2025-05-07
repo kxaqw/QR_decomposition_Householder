@@ -1,4 +1,5 @@
 # QR_decomposition_Householder
+Sharapova Elizabet 
 
 ## 📌 Description
 
