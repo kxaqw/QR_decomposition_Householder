@@ -22,15 +22,26 @@ This code is implemented and tested in **Google Colab** using standard Python li
 ## 🚀 How to Run
 
 1. Open the notebook or script in **Google Colab** or your local Python environment.
-2. Upload or prepare the matrix file named `matrix_c.txt` in the following format:
+2. Upload or prepare the matrix file named `matrix_a.txt` **or any other filename**. If you use a custom name, make sure to change the filename in the `main()` function inside the code block:
+    ```python
+    def main():
+        try:
+            A = read_matrix('your_matrix_file.txt')  # Change filename here
+        except FileNotFoundError:
+            print("Error: matrix_x.txt not found.")
+            return
     ```
-   3 3
-   2 -1 0
-   -1 2 -1
-   0 -1 2
+
+   Example format for the matrix file (e.g., `matrix_a.txt`):
     ```
-3. Run the script or call the `main()` function.
-4. The output files `Q.txt`, `R.txt`(with every run the files will update) will be generated in the working directory also the result will apper on the console of the colab.
+    3 3
+    2 -1 0
+    -1 2 -1
+    0 -1 2
+    ```
+    
+4. Run the script or call the `main()` function.
+5. The output files `Q.txt`, `R.txt`(with every run the files will update) will be generated in the working directory also the result will apper on the console of the colab.
 
 
 ## ✅ Verification Steps
