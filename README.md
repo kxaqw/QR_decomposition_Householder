@@ -71,6 +71,5 @@ The program has been tested with:
 
 Square matrices (3×3)
 
-Rectangular matrices (2×4)
+Rectangular matrices (2×4) & (3×2)
 
-Edge cases (zero elements, near-zero elements)
